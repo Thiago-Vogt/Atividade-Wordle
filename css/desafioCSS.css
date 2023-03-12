@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#tabela {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certo {
+    background-color: rgb(23, 201, 23);
+    color: white;
+    border-color: white;
+}
+
+.lugarErrado {
+    background-color: yellow;
+    color: white;
+    border-color: white;
+}
+
+.errado {
+    background-color: darkgray;
+    color: white;
+    border-color: white;
+}
